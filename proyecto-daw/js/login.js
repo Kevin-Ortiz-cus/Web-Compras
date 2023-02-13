@@ -1,6 +1,7 @@
 const containLogin = document.querySelector('.contain-login');
 const email = document.querySelector('.email');
 const password = document.querySelector('.password');
+const sessionClose = document.querySelector('.sessionClose');
 let datosUsuarios  = JSON.parse(localStorage.getItem("usuarios")) || [];
 let correo = sessionStorage.getItem("email");
 let pass = sessionStorage.getItem("contrasenia");
@@ -27,6 +28,12 @@ function cargarDatos(email, password){
             location.href = "./comprar.html";
         }
     });
+}
+
+function eliminarDatos(){
+    sessionStorage.removeItem("email");
+    sessionStorage.removeItem("contrasenia");
+    sessionStorage.removeItem("usuario");
 }
 
 function actualizarDatos() {
@@ -58,6 +65,12 @@ if(sessionStorage.getItem("usuario") != null){
 containLogin.addEventListener("submit", (e) => {
     e.preventDefault();
     cargarDatos(email, password);
+});
+
+containUsuario.addEventListener("click", (e) => {
+    if(e.target == sessionClose){
+        eliminarDatos();
+    }
 });
 
 containUsuario.addEventListener("submit", actualizarDatos);
