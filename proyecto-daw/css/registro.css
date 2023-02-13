@@ -1,0 +1,30 @@
+.tamanio-icons {
+    width: 1rem;
+}
+
+.tamanio-contain {
+    display: none;
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 10em 2em;
+}
+
+.usuario-datos {
+    display: none;
+}
+
+.show-contain{
+    display: block;
+}
+
+.tamanio-letra {
+    font-size: 13px;
+}
+
+.slide{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3em;
+}

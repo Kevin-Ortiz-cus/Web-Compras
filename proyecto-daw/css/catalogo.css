@@ -1,0 +1,85 @@
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    grid-auto-rows: minmax(380px, 280px);
+    gap: 40px;
+}
+
+.contain-comprar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.carrito{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    top: 0;
+    right: -100%;
+}
+
+.contain-shop {
+    position: relative;
+    width: 100%;
+}
+
+.close{
+    position: absolute;
+    right: 2%;
+    top: 3px;
+    font-size: 20px;
+    z-index: 30;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+
+.container-cart {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background: #000000bd;
+    z-index: 20;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.modal--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.cart-is-active {
+    right: 0;
+    transition: right 0.5s ease;
+}
+
+.cart-shopping {
+    position: fixed;
+    z-index: 40;
+    bottom: 1vh;
+    left: 1vw;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.subTotal::before{
+    content: "Sub total: ";
+}
+
+.subTotal::after{
+    content: " €";
+}
+
+.unidades::before{
+    content: "Unidades: ";
+}

@@ -1,0 +1,41 @@
+
+@media screen and (max-width: 767px) {
+    .ocultar {
+      display: none;
+    }
+    
+}
+
+@media screen and (min-width: 767px) {
+  .hide-nav {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 436px) {
+    .head-width {
+      width: 28%;
+    }
+}
+
+.card-styles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+  justify-content: center;
+  gap: 40px;
+}
+
+.logo-footer {
+    width: 4rem;
+    height: 60px;
+}
+
+.escuchar {
+  width: 30px;
+  cursor: pointer;
+}
+
+.parpadear {
+  opacity: 0.5;
+}

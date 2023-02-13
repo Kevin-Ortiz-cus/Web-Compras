@@ -1,0 +1,22 @@
+.container-cookie {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: #000000bd;
+    z-index: 20;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.card-style {
+    width: 80%;
+}
+
+.show-container{
+    display: flex;
+}

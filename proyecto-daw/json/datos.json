@@ -1,0 +1,257 @@
+{
+    "@productos": [
+        {
+            "id" : 1,
+            "titulo" : "En la sombra",
+            "autor" : "Laura Martín de Dios", 
+            "img" : "./img/libros/book-action.jpg",
+            "categoria" : "acción",
+            "precio" : 21,
+            "unidades": 3
+       },
+       {
+            "id" : 2,
+            "titulo" : "El hombre que tenia miedo de vivir",
+            "autor" : "Miguel Ángel Montero Sánchez",
+            "img" : "./img/libros/book-action2.jpg",
+            "categoria" : "acción",
+            "precio" : 14,
+            "unidades": 23
+       },
+       {
+            "id" : 3,
+            "titulo" : "El Método rico",
+            "autor" : "Diego Gracia",
+            "categoria" : "acción",
+            "img" : "./img/libros/book-action3.jpg",
+            "precio" : 18,
+            "unidades": 67
+       },
+       {
+            "id" : 4,
+            "titulo" : "Trading e Inversión para principiantes",
+            "autor" : "Rubén Villahermosa",
+            "img" : "./img/libros/book-action4.jpg",
+            "categoria" : "acción",
+            "precio" : 26,
+            "unidades": 90
+        },
+        {
+            "id" : 5,
+            "titulo" : "El bosque de los cuatro vientos",
+            "autor" : "María Oruña",
+            "img" : "./img/libros/book-action5.jpg",
+            "categoria" : "acción",
+            "precio" : 25,
+            "unidades": 12
+        },
+        {
+            "id" : 6,
+            "titulo" : "La cara norte del corazón",
+            "autor" : "Dolores Redondo",
+            "img" : "./img/libros/book-action6.jpg",
+            "categoria" : "acción",
+            "precio" : 12,
+            "unidades": 34
+        },
+        {
+            "id" : 7,
+            "titulo" : "El arte de la guerra",
+            "autor" : "Sun Tzu",
+            "img" : "./img/libros/book-action7.jpg",
+            "categoria" : "acción",
+            "precio" : 30,
+            "unidades": 11
+        },
+        {
+            "id" : 8,
+            "titulo" : "Yolo Aventuras",
+            "autor" : "Yolo Nando Mariana",
+            "img" : "./img/libros/book-adventure.jpg",
+            "categoria" : "adventure",
+            "precio" : 1,
+            "unidades": 56
+        },
+        {
+            "id" : 9,
+            "titulo" : "Las aventuras de Carlos Castle y el bebé-creeper",
+            "autor" : "Carlos Castle",
+            "img" : "./img/libros/book-adventure2.jpg",
+            "categoria" : "adventure",
+            "precio" : 36,
+            "unidades": 32
+        },
+        {
+            "id" : 10,
+            "titulo" : "Las aventuras de Dani y Evan",
+            "autor" : "Daniel Redondo",
+            "img" : "./img/libros/book-adventure3.jpg",
+            "categoria" : "adventure",
+            "precio" : 54,
+            "unidades": 100
+        },
+        {
+            "id" : 11,
+            "titulo" : "Londres. Jack el Destripador",
+            "autor" : "Mónica Vacas Hernández",
+            "img" : "./img/libros/book-adventure4.jpg",
+            "categoria" : "adventure",
+            "precio" : 29,
+            "unidades": 26
+        },
+        {
+            "id" : 12,
+            "titulo" : "Maya Erikson",
+            "autor" : "Isabel Álvarez",
+            "img" : "./img/libros/book-adventure5.jpg",
+            "categoria" : "adventure",
+            "precio" : 25,
+            "unidades": 43
+        },
+        {
+            "id" : 13,
+            "titulo" : "Mi Aventura Mágica",
+            "autor" : "María Villahermosa",
+            "img" : "./img/libros/book-adventure6.jpg",
+            "categoria" : "adventure",
+            "precio" : 13,
+            "unidades": 85
+        },
+        {
+            "id" : 14,
+            "titulo" : "Las aventuras de la mano negra",
+            "autor" : "Hans Jürgen Press",
+            "img" : "./img/libros/book-adventure7.jpg",
+            "categoria" : "adventure",
+            "precio" : 40,
+            "unidades": 24
+        },
+        {
+            "id" : 15,
+            "titulo" : "Los Guerreros Argénteos",
+            "autor" : "Elvio Ravasio",
+            "img" : "./img/libros/book-fantasy.jpg",
+            "categoria" : "fantasy",
+            "precio" : 27,
+            "unidades": 2
+        },
+        {
+            "id" : 16,
+            "titulo" : "El Refugio Secreto",
+            "autor" : "Pedro Urvi y Sarima",
+            "img" : "./img/libros/book-fantasy2.jpg",
+            "categoria" : "fantasy",
+            "precio" : 37,
+            "unidades": 9
+        },
+        {
+            "id" : 17,
+            "titulo" : "El reino de los malditos",
+            "autor" : "Estíbaliz Montero Iniesta",
+            "img" : "./img/libros/book-fantasy3.jpg",
+            "categoria" : "fantasy",
+            "precio" : 12,
+            "unidades": 64
+        },
+        {
+            "id" : 18,
+            "titulo" : "Cuento de hadas",
+            "autor" : "Stephen King",
+            "img" : "./img/libros/book-fantasy4.jpg",
+            "categoria" : "fantasy",
+            "precio" : 25,
+            "unidades": 99
+        },
+        {
+            "id" : 19,
+            "titulo" : "Caraval",
+            "autor" : "Jaime Valero Martínez",
+            "img" : "./img/libros/book-fantasy5.jpg",
+            "categoria" : "fantasy",
+            "precio" : 50,
+            "unidades": 71
+        },
+        {
+            "id" : 20,
+            "titulo" : "Fuego y Ruina",
+            "autor" : "Lenin Rodríguez Peñate",
+            "img" : "./img/libros/book-fantasy6.jpg",
+            "categoria" : "fantasy",
+            "precio" : 24,
+            "unidades": 55
+        },
+        {
+            "id" : 21,
+            "titulo" : "Un baile con el príncipe de los Fae",
+            "autor" : "Guiomar Manso de Zuñiga Spottorno",
+            "img" : "./img/libros/book-fantasy7.jpg",
+            "categoria" : "fantasy",
+            "precio" : 19,
+            "unidades": 90
+        },
+        {
+            "id" : 22,
+            "titulo" : "El Tallar",
+            "autor" : "Roberto Perez Esteban",
+            "img" : "./img/libros/book-terror.jpg",
+            "categoria" : "terror",
+            "precio" : 10,
+            "unidades": 30
+        },
+        {
+            "id" : 23,
+            "titulo" : "22, Watling Street",
+            "autor" : "Laura Martínez González",
+            "img" : "./img/libros/book-terror2.jpg",
+            "categoria" : "terror",
+            "precio" : 5,
+            "unidades": 58
+        },
+        {
+            "id" : 24,
+            "titulo" : "Nunca juegues a la ouija",
+            "autor" : "Salva Valero",
+            "img" : "./img/libros/book-terror3.jpg",
+            "categoria" : "terror",
+            "precio" : 58,
+            "unidades": 12
+        },
+        {
+            "id" : 25,
+            "titulo" : "Historias de terror",
+            "autor" : "TikTak Draw",
+            "img" : "./img/libros/book-terror4.jpg",
+            "categoria" : "terror",
+            "precio" : 30,
+            "unidades": 14
+        },
+        {
+            "id" : 26,
+            "titulo" : "Apartamento 16",
+            "autor" : "Adam Nevill",
+            "img" : "./img/libros/book-terror5.jpg",
+            "categoria" : "terror",
+            "precio" : 13,
+            "unidades": 69
+        },
+        {
+            "id" : 27,
+            "titulo" : "España embrujada: Un recorrido terrorífico por misterios",
+            "autor" : "Nekane Flisflisher",
+            "img" : "./img/libros/book-terror6.jpg",
+            "categoria" : "terror",
+            "precio" : 7,
+            "unidades": 120
+        },
+        {
+            "id" : 28,
+            "titulo" : "El bosque de la memoria",
+            "autor" : "Sam Lloyd",
+            "img" : "./img/libros/book-terror7.jpg",
+            "categoria" : "terror",
+            "precio" : 42,
+            "unidades": 78
+        }
+        
+    ]
+}
