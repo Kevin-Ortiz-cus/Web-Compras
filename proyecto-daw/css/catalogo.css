@@ -50,7 +50,7 @@
     transition: opacity 0.5s ease-in-out;
 }
 
-.modal--show{
+.cart--show{
     opacity: 1;
     pointer-events: unset;
     transition: opacity 0.5s ease-in-out;
@@ -63,13 +63,20 @@
 
 .cart-shopping {
     position: fixed;
-    z-index: 40;
     bottom: 1vh;
     left: 1vw;
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
     cursor: pointer;
+    background-color: transparent;
+}
+
+.notify {
+    display: none;
+}
+
+.anyadirNotify {
+    display: block;
 }
 
 .subTotal::before{
