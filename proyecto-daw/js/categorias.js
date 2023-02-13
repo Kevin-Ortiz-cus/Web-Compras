@@ -5,6 +5,7 @@ const catalogo = document.querySelector(".catalogo");
 const messageCarrito = document.querySelector(".text-carrito");
 const compraSonido = document.querySelector(".sonidoCompra");
 const anyadirSonido = document.querySelector(".sonidoAnyadir");
+const notify = document.querySelector(".notify");
 let dataUnitPrice = [];
 let clonLibros = [];
 let libros = [];
@@ -203,13 +204,13 @@ document.addEventListener("click", (e) => {
 
     anyadirItemCarrito(e);
     calculateItems(e);
-    if (e.target.matches(".cart-shopping")) {
+    if (e.target.matches(".miCarrito")) {
         carrito.classList.add("cart-is-active");
-        containerCart.classList.add("modal--show");
+        containerCart.classList.add("cart--show");
     }
 
     if (e.target.matches(".close")) {
-        containerCart.classList.remove("modal--show");
+        containerCart.classList.remove("cart--show");
     }
 
     if(e.target.matches(".comprar")){
@@ -228,9 +229,12 @@ document.addEventListener("click", (e) => {
         span.textContent = "Carrito vacio";
 
         carrito.appendChild(span);
+
+        notify.classList.remove("anyadirNotify");
     }
 
     if(e.target.matches(".anyadir")){
+        notify.classList.add("anyadirNotify");
         anyadirSonido.play();
     }
 
