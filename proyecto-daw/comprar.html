@@ -24,9 +24,10 @@
     <header class="cabecera mb-4">
         <nav class="navbar navbar-expand-md navbar-light bg-light text-uppercase d-flex flex-column py-2">
             <div class="d-flex justify-content-between container-fluid">
-                <img src="img/logo.svg" alt="logo de la pagina" class="mb-1 head-width">
-
-                <div class="d-flex justify-content-center w-50 mb-1">
+                <a href="./index.html" class="w-25">
+                    <img src="img/logo.svg" alt="logo de la pagina" class="mb-1 head-width">
+                </a>
+                <div class="d-flex justify-content-center w-50 mb-1 w-25">
 
                     <form class="input-group w-100">
                         <input type="text" class="form-control buscar" placeholder="Buscar libro"
@@ -39,7 +40,7 @@
                     </form>
                 </div>
 
-                <div>
+                <div class="w-25">
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                         <span class="navbar-toggler-icon"></span>
@@ -56,7 +57,7 @@
                                     <a class="nav-link fw-bold session" href="./login.html">identificarse</a>
                                 </li>
                                 <li class="nav-item hide-nav">
-                                    <a class="nav-link fw-bold" href="#">Destacados</a>
+                                    <a class="nav-link fw-bold" href="./destacados.html">Destacados</a>
                                 </li>
                                 <li class="nav-item hide-nav">
                                     <a class="nav-link fw-bold" href="./quienes-somos.html">¿Quienes somos?</a>
@@ -64,6 +65,9 @@
                                 <li class="nav-item hide-nav">
                                     <a class="nav-link fw-bold" href="./Comprar.html">Comprar
                                         libros</a>
+                                </li>
+                                <li class="nav-item hide-nav">
+                                    <a class="nav-link fw-bold" href="./geocalizacion.html">Ubicación</a>
                                 </li>
                             </ul>
                         </div>
@@ -74,13 +78,16 @@
             <div class="mt-3 ocultar w-100 bg-dark py-3">
                 <ul class="ocultar navbar-nav justify-content-start flex-grow-1 pe-3">
                     <li class="nav-item mx-2">
-                        <a class="nav-link text-dark text-white" href="#">Destacados</a>
+                        <a class="nav-link text-dark text-white" href="./destacados.html">Destacados</a>
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link text-dark text-white" href="./quienes-somos.html">¿Quienes somos?</a>
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link text-dark text-white" href="./Comprar.html">Comprar libros</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-dark text-white" href="./geocalizacion.html">Ubicación</a>
                     </li>
                 </ul>
             </div>
@@ -89,7 +96,7 @@
     <main>
         <div class="contain-shop">
             <div class="contain-comprar">
-                <div class="catalogo w-75 mx-auto">
+                <div class="catalogo w-75 mx-auto my-5">
 
                 </div>
             </div>
@@ -130,14 +137,20 @@
             <source src="sounds/anyadir.mp3" type="audio/mp3">
         </audio>
     </main>
-    <footer class="d-flex flex-wrap flex-column justify-content-center align-items-center py-4 mt-5 bg-dark">
+    <footer class="d-flex flex-wrap flex-column justify-content-center align-items-center py-4 border-top bg-dark">
         <p class="mb-4 text-white h6 text-center">©2023 Biblioteca universal, Kevin Angel Ortiz Cusirramos</p>
+        <ul class="nav list-unstyled d-flex justify-content-evenly mb-3">
+            <li class="mx-3"><a href="./politica-empresa.html" class="text-decoration-none text-white">Nombre de la empresa</a></li>
+            <li class="mx-3"><a href="./politica-empresa.html" class="text-decoration-none text-white">Contacto</a></li>
+            <li class="mx-3"><a href="./politica-empresa.html" class="text-decoration-none text-white">Aviso legal</a></li>
+            <li class="mx-3"><a href="./politica-empresa.html" class="text-decoration-none text-white">Privacidad del sitio</a></li>
+            <li class="mx-3"><a href="./politica-empresa.html" class="text-decoration-none text-white">Condiciones de uso</a></li>
+            <li class="mx-3"><a href="./politica-empresa.html" class="text-decoration-none text-white">Condiciones de venta</a></li>
+        </ul>
         <ul class="nav list-unstyled d-flex justify-content-evenly">
-            <li class="mx-3"><a href="#"><img src="img/bootstrap-icons/facebook.svg" alt="Logo de facebook"></a>
-            </li>
-            <li class="mx-3"><a href="#"><img src="img/bootstrap-icons/instagram.svg" alt="Logo de instagram"></a>
-            </li>
-            <li class="mx-3"><a href="#"><img src="img/bootstrap-icons/twitter.svg" alt="Logo de twitter"></a></li>
+            <li class="mx-3"><a href="https://es-es.facebook.com/"><img src="img/bootstrap-icons/facebook.svg" alt="Logo de facebook"></a></li>
+            <li class="mx-3"><a href="https://www.instagram.com/"><img src="img/bootstrap-icons/instagram.svg" alt="Logo de instagram"></a></li>
+            <li class="mx-3"><a href="https://twitter.com/?lang=es"><img src="img/bootstrap-icons/twitter.svg" alt="Logo de twitter"></a></li>
         </ul>
     </footer>
 </body>
